@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+:root {
+    --clr-wh: hsla(0, 0, 100%, 0.1)
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(216, 12%, 8%);
+    font-family: 'Overpass', sans-serif;
+    overflow: hidden;
+}
+.hidden {
+    display: none;
+}
+.container {
+    background-color: #1F2630;
+    width: 400px;
+    height: 400px;
+    padding: 40px;
+    border-radius: 25px;
+}
+.how {
+    color: white;
+    font-size: 3rem;
+}
+.description {
+    font-size: 1.5rem;
+    color: rgba(255,255,255, 0.3);
+    margin-top: 25px;
+}
+.img-star {
+    background-color: #252E3C;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.rating-block {
+    display: flex;
+}
+.rating {
+    margin-top: 25px;
+    background-color: #252E3C;
+    border: none;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    font-family: inherit;
+    font-size: 1.5rem;
+    color: rgba(255,255,255, 0.7);
+}
+.rating:not(.first) {
+    margin-left: 2rem;
+}
+.first {
+    margin-left: 10px;
+}
+.submit {
+    margin-top: 25px;
+    width: 100%;
+    height: 50px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 25px;
+    font-size: 1.7rem;
+    color: white;
+    letter-spacing: 2px;
+}
+.submit:hover {
+    color: orange;
+    background-color: white;
+}
+.rating:hover {
+    background-color: #ED7518;
+}
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rating:focus {
+    background-color: #7C8896;
+}
+.thanks {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.selected {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AB6D3D;
+    width: 200px;
+    height: 40px;
+    border-radius: 25px;
+    background-color: #203036;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.thanks h1 {
+    color: #FCFDFF;
+    margin-bottom: 30px;
+}
+.thanks .description-thanks {
+    color: #8E959F;
+    font-size: 1.5rem;
+}
+.hidden {
+    display: none;
+}
